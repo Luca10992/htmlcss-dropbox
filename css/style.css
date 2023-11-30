@@ -1,0 +1,72 @@
+/* GENERICS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* UTILS */
+
+.button{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+
+.nav-conteiner{
+    margin: 0 5px;
+    line-height: 65px;
+}
+
+.img{
+    position: relative;
+    top: 5px;
+    width: 7rem;
+}
+
+.list-info{
+    list-style-type: none;
+}
+
+.info{
+    display: inline;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.jumbo-conteiner{
+    width: 100%;
+    background-color: #B4D0E7;
+}
+
+.jumbotron{
+    width: 70%;
+    height: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    border: 2px solid black;
+}
+
+.title{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+
