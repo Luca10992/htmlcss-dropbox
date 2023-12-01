@@ -268,6 +268,92 @@ span{
 
 /* Sezione 5 */
 
+.section5-conteiner{
+    width: 100vw;
+    height: calc(100vw / 3);
+    display: flex;
+}
+
+.section5-conteiner > div{
+    width: calc(100vw / 3);
+    height: 100%;
+}
+
+.square{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square > span{
+    width: 50%;
+    height: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square img{
+    width: 50%;
+}
+
+.square.left span:nth-child(1){
+    background-color: #A2D39B;
+    border: 13px solid #D1E9CD;
+}
+
+.square.left span:nth-child(2){
+    background-color: #61082B;
+}
+
+.square.left span:nth-child(3){
+    background-color: #0093CE;
+}
+
+.square.left span:nth-child(4){
+    background-color: #FF1C1C;
+}
+
+.square.right span:nth-child(1){
+    background-color: #D5001F;
+}
+
+.square.right span:nth-child(2){
+    background-color: #B4D0E7;
+}
+
+.square.right span:nth-child(3){
+    background-color: #0D2481;
+}
+
+.square.right span:nth-child(4){
+    background-color: #FFD830;
+}
+
+.square-center{
+    background-color: #F5F5F5;
+}
+
+.conteiner{
+    padding: 3rem;
+}
+
+.conteiner > img{
+    width: 60%;
+}
+
+.conteiner > hr{
+    width: 80px;
+    color: #f1f1f1;
+    margin: 2rem 0;
+}
+
+.square-center p{
+    margin: 2rem 0;
+}
+
+
+
 
 
 
