@@ -89,10 +89,9 @@
 
 /* SECTION 1 */
 
-.section-conteiner{
+.section1-conteiner{
     width: 55%;
-    margin: 0 auto;
-    margin-top: 8rem;
+    margin: 8rem auto;
 }
 
 .subtitle{
@@ -135,7 +134,8 @@ span{
 
 .plan-name{
     font-size: 20px;
-    margin: 1.5rem 0;
+    width: 65%;
+    margin-top: 1.5rem;
     line-height: 2rem;
 }
 
@@ -179,6 +179,50 @@ span{
 .check-list{
     margin-bottom: 1rem;
 }
+
+.row-body{
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterprise-button{
+    height: 100%;
+    margin-top: 1.5rem;
+}
+
+/* Sezione 2 */
+
+.section2-conteiner{
+    width: 55%;
+    margin: 8rem auto;
+    display: flex
+}
+
+.img-partner{
+    width: 60%;
+}
+
+.text-section2{
+    padding: 3rem;
+}
+
+.text-section2 > p{
+    font-size: 15px;
+    padding: 2rem 0;
+}
+
+.text-section2 > button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* Sezione 3 */
+
+
+
+
 
 
 
