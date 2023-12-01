@@ -382,18 +382,28 @@ span{
     margin-bottom: 3rem;
 }
 
+/* Sezione 7 */
 
+.section7-conteiner{
+    width: 50%;
+    margin: 7rem auto;
+    line-height: 5rem;
+}
 
+.section7-conteiner > h2{
+    font-size: 2.5rem;
+    border-bottom: 1px  solid gray;
+    padding-bottom: 2rem;
+}
 
+.ask-section div{
+    border-bottom: 1px  solid gray;
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.ask-section i{
+    font-size: 10px;
+    color: black;
+    margin-right: 2rem;
+}
