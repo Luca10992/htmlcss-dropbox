@@ -106,14 +106,18 @@ span{
 
 .column{
     margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .col{
-    display: inline-block;
-    width: 245px;
-    height: 500px;
-    margin: 0 15px;
+    width: 30%;
     border: 1px solid #DBDBDD;
+}
+
+.col-body{
+    padding: 0 1.5rem;
 }
 
 .col-title{
@@ -125,28 +129,55 @@ span{
 
 .row{
     margin: 1rem auto;
-    width: 805px;
-    height: 100px;
+    width: 100%;
     border: 1px solid #DBDBDD;
 }
 
 .plan-name{
     font-size: 20px;
-    padding: 1.5rem 1.5rem;
+    margin: 1.5rem 0;
     line-height: 2rem;
 }
 
-.plan-info{
-    padding: 0 1.5rem;
-    line-height: 2rem;
+.fa-ul{
     font-size: 13px;
-    list-style-type: none;
-
-
+    margin-bottom: 2rem;
+    min-height: 121px;
 }
 
 .mensile{
     color: #DBDBDD;
+}
+
+.button.plan{
+    padding: 0.5rem 2rem;
+}
+
+.button.plan.contact{
+    padding: 0.5rem 4.5rem;
+}
+
+.acquista-ora{
+    font-size: 13px;
+    margin: 1.5rem 0;
+}
+
+.line{
+    width: 35px;
+    color: #DBDBDD;
+    margin-bottom: 2rem;
+}
+
+.fa-ul.blu{
+    margin: 2rem 1.5rem;
+}
+
+.fa-li.blu{
+    color: #0061FF;
+}
+
+.check-list{
+    margin-bottom: 1rem;
 }
 
 
