@@ -352,6 +352,40 @@ span{
     margin: 2rem 0;
 }
 
+/* Sezione 6 */
+
+.section6-conteiner{
+    width: 100vw;
+    height: calc(100vw / 6);
+    background-color: #B4D0E7;
+}
+
+.title-section6{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-section6 > h1{
+    font-size: 2.5rem;
+    width: 60%;
+    color: #61082B;
+}
+
+.title-section6  button{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 2rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
 
 
 
