@@ -220,6 +220,37 @@ span{
 
 /* Sezione 3 */
 
+.section3-conteiner{
+    width: 55%;
+    margin: 8rem auto;
+}
+
+.section3-conteiner > h1{
+    font-size: 2rem;
+}
+
+.card-conteiner-section3{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 3 - 3rem);
+    margin: 1rem;
+}
+
+.card > img{
+    width: 100%;
+}
+
+.card > h2{
+    padding-bottom: 2rem;
+}
+
+
+
 
 
 
