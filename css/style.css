@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.button:hover{
+    opacity: 70%;
+}
+
 /* HEADER */
 
 .header{
@@ -42,8 +46,13 @@
 
 .info{
     display: inline;
-    padding: 0.5rem;
+    padding: 20px 0.5rem;
     cursor: pointer;
+}
+
+.info.hover:hover{
+    border-bottom: 4px solid black;
+    border-radius: 4%;
 }
 
 /* ! MAIN */
@@ -218,6 +227,10 @@ span{
     border: 1px solid black;
 }
 
+.text-section2 > button:hover{
+    opacity: 70%;
+}
+
 /* Sezione 3 */
 
 .section3-conteiner{
@@ -334,11 +347,11 @@ span{
     background-color: #F5F5F5;
 }
 
-.conteiner{
+.conteiner-center{
     padding: 3rem;
 }
 
-.conteiner > img{
+.conteiner-center > img{
     width: 60%;
 }
 
@@ -382,12 +395,15 @@ span{
     margin-bottom: 3rem;
 }
 
+.title-section6 button:hover{
+    opacity: 70%;
+}
+
 /* Sezione 7 */
 
 .section7-conteiner{
     width: 50%;
     margin: 7rem auto;
-    line-height: 5rem;
 }
 
 .section7-conteiner > h2{
@@ -397,13 +413,86 @@ span{
 }
 
 .ask-section div{
-    border-bottom: 1px  solid gray;
+    padding: 2rem 0;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
 
-.ask-section i{
+.arrow-down{
     font-size: 10px;
     color: black;
     margin-right: 2rem;
 }
+
+.arrow-up{
+    display:none;
+    font-size: 10px;
+    color: black;
+    margin-right: 2rem;
+}
+
+.ask-section div:hover .arrow-down{
+    display: none;
+}
+
+.ask-section div:hover .arrow-up{
+    display: block;
+}
+
+.p-hover{
+    display: none;
+    padding: 2rem 0;
+    border-bottom: 1px solid black;
+} 
+
+
+/* ! Footer */
+
+.footer{
+    width: 100%;
+    background-color: black;
+}
+
+.footer-list{
+    width: 65%;
+    margin:  auto;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list ul{
+    list-style-type: none;
+    line-height: 2rem;
+    color: white;  
+}
+
+.footer-list li:nth-child(1){
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.footer-line{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.footer-line > hr{
+    color: white;
+    width: 6rem;
+    margin-bottom: 3rem;
+}
+
+.footer-line a,
+.footer-line i{
+    color: rgb(129, 128, 128);
+    padding-bottom: 5rem;
+    font-size: 13px;
+}
+
+.footer-list li:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.782);
+}
+
